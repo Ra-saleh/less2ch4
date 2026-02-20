@@ -1,0 +1,67 @@
+body {
+    font-family: "Tahoma", Arial, sans-serif;
+    background: linear-gradient(to bottom, #0a9396, #97ffea);
+    margin: 0;
+    padding: 40px;
+    direction: rtl;
+}
+
+/* تنسيق العنوان */
+h1 {
+    text-align: center;
+    color: #ffd166; /* ذهبي يعبر عن شمس جدة */
+    font-size: 60px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* تنسيق الفقرات */
+p {
+    font-size: 25px;
+    line-height: 1.9;
+    color: #006400;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+/* تمييز كلمة عروس البحر الأحمر */
+mark {
+    background-color: #ffd166;
+    color: #006400;
+    padding: 3px 6px;
+    border-radius: 6px;
+}
+
+/* تنسيق الصور */
+div {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin: 30px 0;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    border: 6px solid #ffd166;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: transform 0.4s ease;
+    display: block;
+    margin: 0 5px;
+}
+
+img:hover {
+    transform: scale(1.07);
+}
+
+/* الجملة الأخيرة */
+p:last-of-type {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fac444;
+}
